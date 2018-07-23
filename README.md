@@ -8,7 +8,7 @@ Collection of Information about Midi Mapping and Example Midi Mappings for Serat
 ## Colors
 
 Color   |  Values
-------------------
+--------|---------:
 Blue    |  1 to 10
 Green   | 20 to 29
 Yellow  | 30 to 39
