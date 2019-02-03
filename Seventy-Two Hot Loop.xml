@@ -1,0 +1,310 @@
+<midi app="Serato DJ Pro 2.1.0.797">
+    <control channel="13" event_type="Note On" control="0">
+        <userio event="click">
+            <cue_point deck_set="Default" deck_id="0" slot_id="0">
+                <translation action_on="any" behaviour="explicit"/>
+            </cue_point>
+            <auto_loop_enable deck_set="Default" deck_id="0" slot_id="0">
+                <translation action_on="press" behaviour="toggle"/>
+            </auto_loop_enable>
+        </userio>
+        <userio event="output">
+            <auto_loop_enable deck_set="Default" deck_id="0" slot_id="0">
+                <translation action_on="any">
+                    <alias name="on" value="3"/>
+                    <alias name="off" value="1"/>
+                    <alias name="trigger" value="0"/>
+                </translation>
+            </auto_loop_enable>
+        </userio>
+    </control>
+    <control channel="13" event_type="Note On" control="1">
+        <userio event="click">
+            <cue_point deck_set="Default" deck_id="0" slot_id="1">
+                <translation action_on="any" behaviour="explicit"/>
+            </cue_point>
+            <auto_loop_enable deck_set="Default" deck_id="0" slot_id="0">
+                <translation action_on="press" behaviour="toggle"/>
+            </auto_loop_enable>
+        </userio>
+        <userio event="output">
+            <auto_loop_enable deck_set="Default" deck_id="0" slot_id="1">
+                <translation action_on="any">
+                    <alias name="on" value="3"/>
+                    <alias name="off" value="1"/>
+                    <alias name="trigger" value="0"/>
+                </translation>
+            </auto_loop_enable>
+        </userio>
+    </control>
+    <control channel="13" event_type="Note On" control="2">
+        <userio event="click">
+            <cue_point deck_set="Default" deck_id="0" slot_id="2">
+                <translation action_on="any" behaviour="explicit"/>
+            </cue_point>
+            <auto_loop_enable deck_set="Default" deck_id="0" slot_id="0">
+                <translation action_on="press" behaviour="toggle"/>
+            </auto_loop_enable>
+        </userio>
+        <userio event="output">
+            <auto_loop_enable deck_set="Default" deck_id="0" slot_id="2">
+                <translation action_on="any">
+                    <alias name="on" value="3"/>
+                    <alias name="off" value="1"/>
+                    <alias name="trigger" value="0"/>
+                </translation>
+            </auto_loop_enable>
+        </userio>
+    </control>
+    <control channel="13" event_type="Note On" control="3">
+        <userio event="click">
+            <cue_point deck_set="Default" deck_id="0" slot_id="3">
+                <translation action_on="any" behaviour="explicit"/>
+            </cue_point>
+            <auto_loop_enable deck_set="Default" deck_id="0" slot_id="0">
+                <translation action_on="press" behaviour="toggle"/>
+            </auto_loop_enable>
+        </userio>
+        <userio event="output">
+            <auto_loop_enable deck_set="Default" deck_id="0" slot_id="3">
+                <translation action_on="any">
+                    <alias name="on" value="3"/>
+                    <alias name="off" value="1"/>
+                    <alias name="trigger" value="0"/>
+                </translation>
+            </auto_loop_enable>
+        </userio>
+    </control>
+    <control channel="13" event_type="Note On" control="4">
+        <userio event="click">
+            <cue_point deck_set="Default" deck_id="0" slot_id="4">
+                <translation action_on="any" behaviour="explicit"/>
+            </cue_point>
+            <auto_loop_enable deck_set="Default" deck_id="0" slot_id="0">
+                <translation action_on="press" behaviour="toggle"/>
+            </auto_loop_enable>
+        </userio>
+        <userio event="output">
+            <auto_loop_enable deck_set="Default" deck_id="0" slot_id="4">
+                <translation action_on="any">
+                    <alias name="on" value="3"/>
+                    <alias name="off" value="1"/>
+                    <alias name="trigger" value="0"/>
+                </translation>
+            </auto_loop_enable>
+        </userio>
+    </control>
+    <control channel="13" event_type="Note On" control="5">
+        <userio event="click">
+            <cue_point deck_set="Default" deck_id="0" slot_id="5">
+                <translation action_on="any" behaviour="explicit"/>
+            </cue_point>
+            <auto_loop_enable deck_set="Default" deck_id="0" slot_id="0">
+                <translation action_on="press" behaviour="toggle"/>
+            </auto_loop_enable>
+        </userio>
+        <userio event="output">
+            <auto_loop_enable deck_set="Default" deck_id="0" slot_id="5">
+                <translation action_on="any">
+                    <alias name="on" value="3"/>
+                    <alias name="off" value="1"/>
+                    <alias name="trigger" value="3"/>
+                </translation>
+            </auto_loop_enable>
+        </userio>
+    </control>
+    <control channel="13" event_type="Note On" control="6">
+        <userio event="click">
+            <cue_point deck_set="Default" deck_id="0" slot_id="6">
+                <translation action_on="any" behaviour="explicit"/>
+            </cue_point>
+            <auto_loop_enable deck_set="Default" deck_id="0" slot_id="0">
+                <translation action_on="press" behaviour="toggle"/>
+            </auto_loop_enable>
+        </userio>
+        <userio event="output">
+            <auto_loop_enable deck_set="Default" deck_id="0" slot_id="6">
+                <translation action_on="any">
+                    <alias name="on" value="3"/>
+                    <alias name="off" value="1"/>
+                    <alias name="trigger" value="4"/>
+                </translation>
+            </auto_loop_enable>
+        </userio>
+    </control>
+    <control channel="13" event_type="Note On" control="7">
+        <userio event="click">
+            <cue_point deck_set="Default" deck_id="0" slot_id="7">
+                <translation action_on="any" behaviour="explicit"/>
+            </cue_point>
+            <auto_loop_enable deck_set="Default" deck_id="0" slot_id="0">
+                <translation action_on="press" behaviour="toggle"/>
+            </auto_loop_enable>
+        </userio>
+        <userio event="output">
+            <auto_loop_enable deck_set="Default" deck_id="0" slot_id="7">
+                <translation action_on="any">
+                    <alias name="on" value="3"/>
+                    <alias name="off" value="1"/>
+                    <alias name="trigger" value="5"/>
+                </translation>
+            </auto_loop_enable>
+        </userio>
+    </control>
+
+
+
+
+    <control channel="14" event_type="Note On" control="0">
+        <userio event="click">
+            <cue_point deck_set="Default" deck_id="1" slot_id="0">
+                <translation action_on="any" behaviour="explicit"/>
+            </cue_point>
+            <auto_loop_enable deck_set="Default" deck_id="1" slot_id="0">
+                <translation action_on="press" behaviour="toggle"/>
+            </auto_loop_enable>
+        </userio>
+        <userio event="output">
+           <auto_loop_enable deck_set="Default" deck_id="1" slot_id="0">
+                <translation action_on="any">
+                    <alias name="on" value="3"/>
+                    <alias name="off" value="1"/>
+                    <alias name="trigger" value="0"/>
+                </translation>
+            </auto_loop_enable>
+        </userio>
+    </control>
+    <control channel="14" event_type="Note On" control="1">
+        <userio event="click">
+            <cue_point deck_set="Default" deck_id="1" slot_id="1">
+                <translation action_on="any" behaviour="explicit"/>
+            </cue_point>
+            <auto_loop_enable deck_set="Default" deck_id="1" slot_id="0">
+                <translation action_on="press" behaviour="toggle"/>
+            </auto_loop_enable>
+        </userio>
+        <userio event="output">
+            <auto_loop_enable deck_set="Default" deck_id="1" slot_id="1">
+                <translation action_on="any">
+                    <alias name="on" value="3"/>
+                    <alias name="off" value="1"/>
+                    <alias name="trigger" value="0"/>
+                </translation>
+            </auto_loop_enable>
+        </userio>
+    </control>
+    <control channel="14" event_type="Note On" control="2">
+        <userio event="click">
+            <cue_point deck_set="Default" deck_id="1" slot_id="2">
+                <translation action_on="any" behaviour="explicit"/>
+            </cue_point>
+            <auto_loop_enable deck_set="Default" deck_id="1" slot_id="0">
+                <translation action_on="press" behaviour="toggle"/>
+            </auto_loop_enable>
+        </userio>
+        <userio event="output">
+            <auto_loop_enable deck_set="Default" deck_id="1" slot_id="2">
+                <translation action_on="any">
+                    <alias name="on" value="3"/>
+                    <alias name="off" value="1"/>
+                    <alias name="trigger" value="0"/>
+                </translation>
+            </auto_loop_enable>
+        </userio>
+    </control>
+    <control channel="14" event_type="Note On" control="3">
+        <userio event="click">
+            <cue_point deck_set="Default" deck_id="1" slot_id="3">
+                <translation action_on="any" behaviour="explicit"/>
+            </cue_point>
+            <auto_loop_enable deck_set="Default" deck_id="1" slot_id="0">
+                <translation action_on="press" behaviour="toggle"/>
+            </auto_loop_enable>
+        </userio>
+        <userio event="output">
+            <auto_loop_enable deck_set="Default" deck_id="1" slot_id="3">
+                <translation action_on="any">
+                    <alias name="on" value="3"/>
+                    <alias name="off" value="1"/>
+                    <alias name="trigger" value="0"/>
+                </translation>
+            </auto_loop_enable>
+        </userio>
+    </control>
+    <control channel="14" event_type="Note On" control="4">
+        <userio event="click">
+            <cue_point deck_set="Default" deck_id="1" slot_id="4">
+                <translation action_on="any" behaviour="explicit"/>
+            </cue_point>
+            <auto_loop_enable deck_set="Default" deck_id="1" slot_id="0">
+                <translation action_on="press" behaviour="toggle"/>
+            </auto_loop_enable>
+        </userio>
+        <userio event="output">
+            <auto_loop_enable deck_set="Default" deck_id="1" slot_id="4">
+                <translation action_on="any">
+                    <alias name="on" value="3"/>
+                    <alias name="off" value="1"/>
+                    <alias name="trigger" value="0"/>
+                </translation>
+            </auto_loop_enable>
+        </userio>
+    </control>
+    <control channel="14" event_type="Note On" control="5">
+        <userio event="click">
+            <cue_point deck_set="Default" deck_id="1" slot_id="5">
+                <translation action_on="any" behaviour="explicit"/>
+            </cue_point>
+            <auto_loop_enable deck_set="Default" deck_id="1" slot_id="0">
+                <translation action_on="press" behaviour="toggle"/>
+            </auto_loop_enable>
+        </userio>
+        <userio event="output">
+            <auto_loop_enable deck_set="Default" deck_id="1" slot_id="5">
+                <translation action_on="any">
+                    <alias name="on" value="3"/>
+                    <alias name="off" value="1"/>
+                    <alias name="trigger" value="0"/>
+                </translation>
+            </auto_loop_enable>
+        </userio>
+    </control>
+    <control channel="14" event_type="Note On" control="6">
+        <userio event="click">
+            <cue_point deck_set="Default" deck_id="1" slot_id="6">
+                <translation action_on="any" behaviour="explicit"/>
+            </cue_point>
+            <auto_loop_enable deck_set="Default" deck_id="1" slot_id="0">
+                <translation action_on="press" behaviour="toggle"/>
+            </auto_loop_enable>
+        </userio>
+        <userio event="output">
+            <auto_loop_enable deck_set="Default" deck_id="1" slot_id="6">
+                <translation action_on="any">
+                    <alias name="on" value="3"/>
+                    <alias name="off" value="1"/>
+                    <alias name="trigger" value="0"/>
+                </translation>
+            </auto_loop_enable>
+        </userio>
+    </control>
+    <control channel="14" event_type="Note On" control="7">
+        <userio event="click">
+            <cue_point deck_set="Default" deck_id="1" slot_id="7">
+                <translation action_on="any" behaviour="explicit"/>
+            </cue_point>
+            <auto_loop_enable deck_set="Default" deck_id="1" slot_id="0">
+                <translation action_on="press" behaviour="toggle"/>
+            </auto_loop_enable>
+        </userio>
+        <userio event="output">
+            <auto_loop_enable deck_set="Default" deck_id="1" slot_id="7">
+                <translation action_on="any">
+                    <alias name="on" value="3"/>
+                    <alias name="off" value="1"/>
+                    <alias name="trigger" value="0"/>
+                </translation>
+            </auto_loop_enable>
+        </userio>
+    </control>
+</midi>
