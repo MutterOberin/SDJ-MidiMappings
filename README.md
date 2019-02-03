@@ -9,6 +9,12 @@ Parameter Knobs (Manual: Knob 18 for L/R Decks) are sending a midi signal if not
 
 With the firmware 1.3 Rane adds the auto loop function to this knob as build-in feature. No midi mapping required anymore.
 
+### Hot Loop
+With the DDJ SP1 Shift + Hot Cue would enable Hot Loop. It triggers a Cue and enables an Auto Loop with the currently set Loop length.
+This mapping mimics the Hot Loop mode. It is activated using Shift + Cue Mode.
+
+Remark: Currently in Beta. Issues: 1) Output lighting is not correct. 2) Instead of all pads trigger loop on, they trigger loop toggle. 
+
 ### Beat Jump
 Similar to the manual tone play this mapping triggers two midi events. Instead of having two buttons for controlling the length of the jump and two buttons for performing the jump the first row is dedicated to jump backward and the second row to jump forward. The divisions are 4 beats, 2 beats, 1 beat, 1/2 beat from left to right.
 
