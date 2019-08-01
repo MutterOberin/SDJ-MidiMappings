@@ -1,26 +1,25 @@
-<midi app="Serato DJ Pro 2.1.0.664">
+<midi app="Serato DJ Pro 2.2.0.97">
     <control channel="13" event_type="Note On" control="0">
         <userio event="click">
-            <beat_jump_step deck_set="Default" deck_id="0" slot_id="7">
+            <beat_jump_step deck_set="Default" deck_id="0" slot_id="4">
                 <translation action_on="press" behaviour="explicit"/>
             </beat_jump_step>
             <beat_jump deck_set="Default" deck_id="0" slot_id="0">
                 <translation action_on="press" behaviour="static" static_value="backward"/>
+            </beat_jump>
+        </userio>
+        <userio event="output">
+            <beat_jump deck_set="Default" deck_id="0" slot_id="0">
+                <translation action_on="any">
+                    <alias name="none" value="5"/>
+                    <alias name="backward" value="5"/>
+                    <alias name="forward" value="5"/>
+                </translation>
             </beat_jump>
         </userio>
     </control>
     <control channel="13" event_type="Note On" control="1">
         <userio event="click">
-            <beat_jump_step deck_set="Default" deck_id="0" slot_id="6">
-                <translation action_on="press" behaviour="explicit"/>
-            </beat_jump_step>
-            <beat_jump deck_set="Default" deck_id="0" slot_id="0">
-                <translation action_on="press" behaviour="static" static_value="backward"/>
-            </beat_jump>
-        </userio>
-    </control>
-    <control channel="13" event_type="Note On" control="2">
-        <userio event="click">
             <beat_jump_step deck_set="Default" deck_id="0" slot_id="5">
                 <translation action_on="press" behaviour="explicit"/>
             </beat_jump_step>
@@ -28,18 +27,112 @@
                 <translation action_on="press" behaviour="static" static_value="backward"/>
             </beat_jump>
         </userio>
+        <userio event="output">
+            <beat_jump deck_set="Default" deck_id="0" slot_id="0">
+                <translation action_on="any">
+                    <alias name="none" value="5"/>
+                    <alias name="backward" value="5"/>
+                    <alias name="forward" value="5"/>
+                </translation>
+            </beat_jump>
+        </userio>
     </control>
-    <control channel="13" event_type="Note On" control="3">
+    <control channel="13" event_type="Note On" control="2">
         <userio event="click">
-            <beat_jump_step deck_set="Default" deck_id="0" slot_id="4">
+            <beat_jump_step deck_set="Default" deck_id="0" slot_id="6">
                 <translation action_on="press" behaviour="explicit"/>
             </beat_jump_step>
             <beat_jump deck_set="Default" deck_id="0" slot_id="0">
                 <translation action_on="press" behaviour="static" static_value="backward"/>
             </beat_jump>
         </userio>
+        <userio event="output">
+            <beat_jump deck_set="Default" deck_id="0" slot_id="0">
+                <translation action_on="any">
+                    <alias name="none" value="5"/>
+                    <alias name="backward" value="5"/>
+                    <alias name="forward" value="5"/>
+                </translation>
+            </beat_jump>
+        </userio>
+    </control>
+    <control channel="13" event_type="Note On" control="3">
+        <userio event="click">
+            <beat_jump_step deck_set="Default" deck_id="0" slot_id="7">
+                <translation action_on="press" behaviour="explicit"/>
+            </beat_jump_step>
+            <beat_jump deck_set="Default" deck_id="0" slot_id="0">
+                <translation action_on="press" behaviour="static" static_value="backward"/>
+            </beat_jump>
+        </userio>
+        <userio event="output">
+            <beat_jump deck_set="Default" deck_id="0" slot_id="0">
+                <translation action_on="any">
+                    <alias name="none" value="5"/>
+                    <alias name="backward" value="5"/>
+                    <alias name="forward" value="5"/>
+                </translation>
+            </beat_jump>
+        </userio>
     </control>
     <control channel="13" event_type="Note On" control="4">
+        <userio event="click">
+            <beat_jump_step deck_set="Default" deck_id="0" slot_id="4">
+                <translation action_on="press" behaviour="explicit"/>
+            </beat_jump_step>
+            <beat_jump deck_set="Default" deck_id="0" slot_id="0">
+                <translation action_on="press" behaviour="static" static_value="forward"/>
+            </beat_jump>
+        </userio>
+        <userio event="output">
+            <beat_jump deck_set="Default" deck_id="0" slot_id="0">
+                <translation action_on="any">
+                    <alias name="none" value="50"/>
+                    <alias name="backward" value="50"/>
+                    <alias name="forward" value="50"/>
+                </translation>
+            </beat_jump>
+        </userio>
+    </control>
+    <control channel="13" event_type="Note On" control="5">
+        <userio event="click">
+            <beat_jump_step deck_set="Default" deck_id="0" slot_id="5">
+                <translation action_on="press" behaviour="explicit"/>
+            </beat_jump_step>
+            <beat_jump deck_set="Default" deck_id="0" slot_id="0">
+                <translation action_on="press" behaviour="static" static_value="forward"/>
+            </beat_jump>
+        </userio>
+        <userio event="output">
+            <beat_jump deck_set="Default" deck_id="0" slot_id="0">
+                <translation action_on="any">
+                    <alias name="none" value="50"/>
+                    <alias name="backward" value="50"/>
+                    <alias name="forward" value="50"/>
+                </translation>
+            </beat_jump>
+        </userio>
+    </control>
+    <control channel="13" event_type="Note On" control="6">
+        <userio event="click">
+            <beat_jump_step deck_set="Default" deck_id="0" slot_id="6">
+                <translation action_on="press" behaviour="explicit"/>
+            </beat_jump_step>
+            <beat_jump deck_set="Default" deck_id="0" slot_id="0">
+                <translation action_on="press" behaviour="static" static_value="forward"/>
+            </beat_jump>
+        </userio>
+        <userio event="output">
+            <beat_jump deck_set="Default" deck_id="0" slot_id="0">
+                <translation action_on="any">
+                    <alias name="none" value="50"/>
+                    <alias name="backward" value="50"/>
+                    <alias name="forward" value="50"/>
+                </translation>
+            </beat_jump>
+        </userio>
+    </control>
+    <control channel="13" event_type="Note On" control="7">
         <userio event="click">
             <beat_jump_step deck_set="Default" deck_id="0" slot_id="7">
                 <translation action_on="press" behaviour="explicit"/>
@@ -48,34 +141,166 @@
                 <translation action_on="press" behaviour="static" static_value="forward"/>
             </beat_jump>
         </userio>
-    </control>
-    <control channel="13" event_type="Note On" control="5">
-        <userio event="click">
-            <beat_jump_step deck_set="Default" deck_id="0" slot_id="6">
-                <translation action_on="press" behaviour="explicit"/>
-            </beat_jump_step>
+        <userio event="output">
             <beat_jump deck_set="Default" deck_id="0" slot_id="0">
-                <translation action_on="press" behaviour="static" static_value="forward"/>
+                <translation action_on="any">
+                    <alias name="none" value="50"/>
+                    <alias name="backward" value="50"/>
+                    <alias name="forward" value="50"/>
+                </translation>
             </beat_jump>
         </userio>
     </control>
-    <control channel="13" event_type="Note On" control="6">
+
+    <control channel="14" event_type="Note On" control="0">
         <userio event="click">
-            <beat_jump_step deck_set="Default" deck_id="0" slot_id="5">
+            <beat_jump_step deck_set="Default" deck_id="1" slot_id="4">
                 <translation action_on="press" behaviour="explicit"/>
             </beat_jump_step>
+            <beat_jump deck_set="Default" deck_id="1" slot_id="0">
+                <translation action_on="press" behaviour="static" static_value="backward"/>
+            </beat_jump>
+        </userio>
+        <userio event="output">
             <beat_jump deck_set="Default" deck_id="0" slot_id="0">
-                <translation action_on="press" behaviour="static" static_value="forward"/>
+                <translation action_on="any">
+                    <alias name="none" value="5"/>
+                    <alias name="backward" value="5"/>
+                    <alias name="forward" value="5"/>
+                </translation>
             </beat_jump>
         </userio>
     </control>
-    <control channel="13" event_type="Note On" control="7">
+    <control channel="14" event_type="Note On" control="1">
         <userio event="click">
-            <beat_jump_step deck_set="Default" deck_id="0" slot_id="4">
+            <beat_jump_step deck_set="Default" deck_id="1" slot_id="5">
                 <translation action_on="press" behaviour="explicit"/>
             </beat_jump_step>
+            <beat_jump deck_set="Default" deck_id="1" slot_id="0">
+                <translation action_on="press" behaviour="static" static_value="backward"/>
+            </beat_jump>
+        </userio>
+        <userio event="output">
             <beat_jump deck_set="Default" deck_id="0" slot_id="0">
+                <translation action_on="any">
+                    <alias name="none" value="5"/>
+                    <alias name="backward" value="5"/>
+                    <alias name="forward" value="5"/>
+                </translation>
+            </beat_jump>
+        </userio>
+    </control>
+    <control channel="14" event_type="Note On" control="2">
+        <userio event="click">
+            <beat_jump_step deck_set="Default" deck_id="1" slot_id="6">
+                <translation action_on="press" behaviour="explicit"/>
+            </beat_jump_step>
+            <beat_jump deck_set="Default" deck_id="1" slot_id="0">
+                <translation action_on="press" behaviour="static" static_value="backward"/>
+            </beat_jump>
+        </userio>
+        <userio event="output">
+            <beat_jump deck_set="Default" deck_id="0" slot_id="0">
+                <translation action_on="any">
+                    <alias name="none" value="5"/>
+                    <alias name="backward" value="5"/>
+                    <alias name="forward" value="5"/>
+                </translation>
+            </beat_jump>
+        </userio>
+    </control>
+    <control channel="14" event_type="Note On" control="3">
+        <userio event="click">
+            <beat_jump_step deck_set="Default" deck_id="1" slot_id="7">
+                <translation action_on="press" behaviour="explicit"/>
+            </beat_jump_step>
+            <beat_jump deck_set="Default" deck_id="1" slot_id="0">
+                <translation action_on="press" behaviour="static" static_value="backward"/>
+            </beat_jump>
+        </userio>
+        <userio event="output">
+            <beat_jump deck_set="Default" deck_id="0" slot_id="0">
+                <translation action_on="any">
+                    <alias name="none" value="5"/>
+                    <alias name="backward" value="5"/>
+                    <alias name="forward" value="5"/>
+                </translation>
+            </beat_jump>
+        </userio>
+    </control>
+    <control channel="14" event_type="Note On" control="4">
+        <userio event="click">
+            <beat_jump_step deck_set="Default" deck_id="1" slot_id="4">
+                <translation action_on="press" behaviour="explicit"/>
+            </beat_jump_step>
+            <beat_jump deck_set="Default" deck_id="1" slot_id="0">
                 <translation action_on="press" behaviour="static" static_value="forward"/>
+            </beat_jump>
+        </userio>
+        <userio event="output">
+            <beat_jump deck_set="Default" deck_id="0" slot_id="0">
+                <translation action_on="any">
+                    <alias name="none" value="50"/>
+                    <alias name="backward" value="50"/>
+                    <alias name="forward" value="50"/>
+                </translation>
+            </beat_jump>
+        </userio>
+    </control>
+    <control channel="14" event_type="Note On" control="5">
+        <userio event="click">
+            <beat_jump_step deck_set="Default" deck_id="1" slot_id="5">
+                <translation action_on="press" behaviour="explicit"/>
+            </beat_jump_step>
+            <beat_jump deck_set="Default" deck_id="1" slot_id="0">
+                <translation action_on="press" behaviour="static" static_value="forward"/>
+            </beat_jump>
+        </userio>
+        <userio event="output">
+            <beat_jump deck_set="Default" deck_id="0" slot_id="0">
+                <translation action_on="any">
+                    <alias name="none" value="50"/>
+                    <alias name="backward" value="50"/>
+                    <alias name="forward" value="50"/>
+                </translation>
+            </beat_jump>
+        </userio>
+    </control>
+    <control channel="14" event_type="Note On" control="6">
+        <userio event="click">
+            <beat_jump_step deck_set="Default" deck_id="1" slot_id="6">
+                <translation action_on="press" behaviour="explicit"/>
+            </beat_jump_step>
+            <beat_jump deck_set="Default" deck_id="1" slot_id="0">
+                <translation action_on="press" behaviour="static" static_value="forward"/>
+            </beat_jump>
+        </userio>
+        <userio event="output">
+            <beat_jump deck_set="Default" deck_id="0" slot_id="0">
+                <translation action_on="any">
+                    <alias name="none" value="50"/>
+                    <alias name="backward" value="50"/>
+                    <alias name="forward" value="50"/>
+                </translation>
+            </beat_jump>
+        </userio>
+    </control>
+    <control channel="14" event_type="Note On" control="7">
+        <userio event="click">
+            <beat_jump_step deck_set="Default" deck_id="1" slot_id="7">
+                <translation action_on="press" behaviour="explicit"/>
+            </beat_jump_step>
+            <beat_jump deck_set="Default" deck_id="1" slot_id="0">
+                <translation action_on="press" behaviour="static" static_value="forward"/>
+            </beat_jump>
+        </userio>
+        <userio event="output">
+            <beat_jump deck_set="Default" deck_id="0" slot_id="0">
+                <translation action_on="any">
+                    <alias name="none" value="50"/>
+                    <alias name="backward" value="50"/>
+                    <alias name="forward" value="50"/>
+                </translation>
             </beat_jump>
         </userio>
     </control>
